@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        #studentReg:hover{
+            color: cadetblue;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        input[type="text"]{
+            text-transform: capitalize;
+            color: blue;
+            border: 1px color(srgb rgb(171, 18, 18) rgb(160, 19, 226) blue);
+            width: 220 px;
+            padding: 5px;
+            border-radius: 8px;
+        }
+        ol li::before{
+            content:iconhttps://emojipedia.org/writing-hand    
+           
+        }
+    </style>
+</head>
+<body>
+    <h2 id="studentReg">Student Registration</h2>
+    <form action="">
+    <table >
+        <tbody>
+        <tr>
+            <td><label for="">Full Name</label></td>
+            <td><input type="text" required autofocus placeholder="FIrst name and last name"> <br></td>
+        </tr>
+        <tr>
+            <td><label for="">Age</label></td>
+            <td><input type="number" required> <br></td>
+        </tr>
+        <tr>
+            <td><label for="">College Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="">Mobile No.</label></td>
+            <td><input type="number" required placeholder="Only 10 digits"></td>
+        </tr>
+        <tr>
+            <td><label for="">Email</label></td>
+            <td><input type="email" name="" id="" required placeholder="abc@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="">Password</label></td>
+            <td><input type="password" placeholder="Combination of char and digits and sp"></td>
+        </tr>
+        <tr>
+            <td><label for="">Available date</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label for="">Upload Adhar</label></td>
+            <td><input type="file" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="">Upload marksheets</label></td>
+            <td><input type="file" name="" id="" multiple></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td>
+                <input type="radio" name="Gender" id="">
+                <label for="">Male</label>
+                <input type="radio" name="Gender" id="">
+                <label for="">Female</label>
+                <input type="radio" name="Gender" id="">
+                <label for="">Others</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Select Course</label></td>
+            <td>
+                <input type="checkbox">
+                <label for="">Fullstack</label>
+                <input type="checkbox">
+                <label for="">MERN fullstack</label>
+                <input type="checkbox">
+                <label for="">Testing</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">City</label></td>
+            <td>
+                <select name="" id="">
+                    <option value="text">India</option>
+                    <option value="text">USA</option>
+                    <option value="text">Singapore</option>
+                    <option value="text">Denmark</option>
+                    <option value="text">Sweden</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Address</label></td>
+            <td>
+                <textarea name="" id=""></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><button type="reset">Reset</button></td>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+       
+    </tbody>
+    </table>
+    </form>
+
+</body>
+</html>

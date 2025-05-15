@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <!-- Internal CSS -->
+     <style>
+        /* Name Selector*/
+        h2{
+            color: orange;text-transform: capitalize;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        li{
+
+            color: rgb(38, 255, 0);
+        }
+        #larry{
+            color: black;
+        }
+        .dearest{
+           color: blue;text-transform: uppercase; 
+        }
+        /*combinator selector*/
+        #elon, #jeff,h3{
+            color:rgb(213, 49, 49); text-decoration: underline;
+            font-weight: 900;
+            text-decoration: line-through;
+            text-align: center;
+        }
+        #bio{
+            color: aqua;
+        }
+
+     </style>
+</head>
+<body>
+   <h2>Top billionaires in the world</h2> 
+   <ol>
+    <li id="elon">Elon musk</li>
+    <li id="jeff">Jess bezos</li>
+    <li>Warren buffett</li>
+    <li>Mark zukerburg</li>
+    <li id="larry">Larry page</li>
+    <li>Larry Ellision</li>
+    <li>Morteza</li>
+</ol>
+<hr>
+<h2>My friends list</h2>
+<ul>
+ <li>Ratan</li>
+ <li>Narayan</li>
+ <li class="dearest">Satya</li>
+ <li>Sundar</li>
+ <li>Avinash</li>
+ <li>Mukesh</li>
+ <li class="dearest">Anil</li>
+ <li>Adarsh</li>
+ <li>Ramesh</li>
+ <li>Lakshmi</li>
+ <li>Sharukh</li>
+ <li class="dearest">Vicky</li>
+</ul>
+<hr>
+<h3>My profile photo</h3>
+<img src="dev.png" alt="Devloper photo" width="300px" height="300px">
+<hr>
+<h4>My Hobbies</h4>
+<ul>
+    <li>Reading</li>
+    <li>Traveling</li>
+    <li>Watching <span id="bio">biography</span> videos</li>
+</ul>
+   
+</body>
+</html>

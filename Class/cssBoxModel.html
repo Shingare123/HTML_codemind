@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOx Model</title>
+    <!-- Internal CSS -->
+     <Style>
+        #content{
+            /* border-style: solid;
+            border-color: blue;
+            border-width: 6px; */
+            border: solid red 4px;
+            padding: 20px ;
+            padding-left: unset;
+        }
+        #border{
+            width: 500px;
+            border: solid black 4px;
+            padding: 20px;
+            box-sizing: border-box;
+            
+        }
+        #padding{
+            width: 500px;
+            border: solid green 4px;
+            padding: 20px;
+            box-sizing: content-box;
+        }
+     </Style>
+</head>
+<body>
+    <h2>CSS Box Model</h2>
+    <ul>
+        <li id="content">content</li>
+        <li id="border">Border</li>
+        <li id="Padding">Padding</li>
+        <li>Margin</li>
+    </ul>
+</body>
+</html>
